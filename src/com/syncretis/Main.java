@@ -9,6 +9,8 @@ public class Main {
         statistics.printStats(arr.clone(), new BubbleSort("Bubble Sort"));
         statistics.printStats(arr.clone(), new SelectSort("Select Sort"));
         statistics.printStats(arr.clone(), new QuickSort("Quick Sort"));
+
+        System.out.println("Time of sorting array and search number searchNum" + new SortAndSearch().bencharkSAS(arr, 1));
     }
 
     public static int[] createArr(int elements) {
