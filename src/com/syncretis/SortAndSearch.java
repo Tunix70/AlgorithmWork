@@ -1,5 +1,7 @@
 package com.syncretis;
 
+import com.syncretis.sortImpl.QuickSort;
+
 public class SortAndSearch {
     QuickSort quickSort = new QuickSort("QUICK");
 

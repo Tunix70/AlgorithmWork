@@ -1,4 +1,4 @@
-package com.syncretis;
+package com.syncretis.sortInterface;
 
 public interface Sort {
     int[] sort(int[] arr);

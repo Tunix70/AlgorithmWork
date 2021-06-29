@@ -1,6 +1,8 @@
-package com.syncretis;
+package com.syncretis.sortImpl;
 
-public class SelectSort implements Sort{
+import com.syncretis.sortInterface.Sort;
+
+public class SelectSort implements Sort {
     private String name;
 
     public SelectSort(String name) {
