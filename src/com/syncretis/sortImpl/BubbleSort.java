@@ -1,4 +1,6 @@
-package com.syncretis;
+package com.syncretis.sortImpl;
+
+import com.syncretis.sortInterface.Sort;
 
 public class BubbleSort implements Sort {
     private String name;

@@ -1,5 +1,7 @@
 package com.syncretis;
 
+import com.syncretis.sortInterface.Sort;
+
 public class Statistics {
     public void printStats(int[] arr, Sort sort) {
         Long startTime = System.nanoTime();
